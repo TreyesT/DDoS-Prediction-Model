@@ -15,9 +15,10 @@ This repository explores whether **network flow characteristics** can accurately
 
 - **notebooks/**  
   Contains Jupyter notebooks that detail the project workflow:
-  - **Model_Training.ipynb** – Data cleaning, exploratory data analysis (EDA), feature engineering, and model training.
-  - **Decision_Tree_Classifier_Data_Analysis.ipynb** – In-depth analysis and visualization using the Decision Tree Classifier.
-  - **Full_Data_Testing.ipynb** – Testing the trained model on the complete dataset to assess its performance on a large scale.
+  - **DDoS ML Models.ipynb** – Data cleaning, exploratory data analysis (EDA), feature engineering, and model training.
+  - **DDos_Model_DA.ipynb** – In-depth analysis and visualization using the Decision Tree Classifier.
+  - **testing.py** – Testing the trained model on the complete dataset to assess its performance on a large scale.
+  - **Data_Analysis.ipynb** - General Analysis of flow characteristics of both Bening and DDoS flows.
 
 - **presentations/**  
   Contains presentation materials (e.g., slides, PDFs) that provide a high-level summary of the project, including key metrics, methodologies, and future directions.
@@ -29,8 +30,6 @@ This repository explores whether **network flow characteristics** can accurately
   While initial evaluations on a smaller subset show very high accuracy, testing on the complete dataset indicates potential performance drops, highlighting issues like overfitting or the need for additional tuning.
 - **Scalability Challenges:**  
   Processing and analyzing large-scale network data requires robust preprocessing techniques (e.g., capping extreme values) to ensure model stability and reliable performance.
-- **Data Analysis:**
-  General Analysis of flow characteristics of both Bening and DDoS flows.
 
 ## Data Sources
 1. **Training Subset:**  
