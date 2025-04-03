@@ -29,6 +29,8 @@ This repository explores whether **network flow characteristics** can accurately
   While initial evaluations on a smaller subset show very high accuracy, testing on the complete dataset indicates potential performance drops, highlighting issues like overfitting or the need for additional tuning.
 - **Scalability Challenges:**  
   Processing and analyzing large-scale network data requires robust preprocessing techniques (e.g., capping extreme values) to ensure model stability and reliable performance.
+- **Data Analysis:**
+  General Analysis of flow characteristics of both Bening and DDoS flows.
 
 ## Data Sources
 1. **Training Subset:**  
