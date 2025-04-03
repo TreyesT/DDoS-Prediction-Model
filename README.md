@@ -45,15 +45,3 @@ This repository explores whether **network flow characteristics** can accurately
    - **Decision_Tree_Classifier_Data_Analysis.ipynb** – Dive into detailed analysis using the Decision Tree Classifier.
    - **Full_Data_Testing.ipynb** – Evaluate the trained model on the complete dataset (13 million rows) to understand real-world performance.
 3. Refer to the **articles/** and **presentations/** folders for concise summaries and visual highlights of the project.
-
-## Future Work
-- **Hyperparameter Tuning:**  
-  Utilize techniques like GridSearchCV or RandomizedSearchCV to optimize model parameters for improved performance.
-- **Advanced Ensemble Methods:**  
-  Experiment with ensemble strategies (stacking, blending, etc.) to enhance predictive accuracy.
-- **Real-time Implementation:**  
-  Adapt the processing and modeling pipeline for real-time DDoS detection applications.
-- **Enhanced Feature Engineering:**  
-  Further explore and engineer features to capture subtle aspects of network behavior.
-- **Scalability Improvements:**  
-  Develop more efficient data processing pipelines to handle and analyze large-scale network traffic in real time.
